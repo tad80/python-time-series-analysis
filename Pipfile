@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+prophet = "*"
+pandas = "*"
+python-json-logger = "*"
+pylint = "*"
+google-cloud-storage = "*"
+matplotlib = "*"
+pmdarima = "*"
+bigquery = "*"
+retry = "*"
+google-cloud-bigquery = "*"
+db-dtypes = "*"
+numpy = "==1.21.5"
+sklearn = "*"
+install = "*"
+scipy = "*"
+scikit-learn = "*"
+seaborn = "==0.11.2"
+statsmodels = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
